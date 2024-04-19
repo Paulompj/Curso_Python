@@ -1,7 +1,6 @@
 #imprimindo apenas numeros com print
 print(21,22,121)
 print(21,22,121)
-
 #O Modificador abaixo sep serve para colocar o que voce quiser entre os objetos
 #Por padrão ele ja vem com sep=' ' ou seja um espaço em branco
 print(21,22,121,sep="-")
@@ -12,4 +11,12 @@ print(21,22,121,sep='-')
 print(21,22,121,end='eu')
 print(21,22,121, end='\n')
 print(21,22,121)
+a="Paulo"
+print(a)
+print(a[4],end="")
+print(a[3],end="")
+print(a[2],end="")
+print(a[1],end="")
+print(a[0],end="")
+
 
